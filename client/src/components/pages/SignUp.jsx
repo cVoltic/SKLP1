@@ -9,7 +9,9 @@ import { Button, Link, TextField } from "@mui/material";
 
 function SignUp(props) {
     return (
-        <></>
+        <>
+            <h1>Sign Up Page</h1>
+        </>
     )
 }
 

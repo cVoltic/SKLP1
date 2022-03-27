@@ -1,14 +1,19 @@
+/**
+ * Functional components to define the app layout
+ * Define the available urls
+ */
 import React from "react";
-import Login from "./pages/Login";
-import Footer from "./layout/Footer";
+import Layout from "./Layout";
+import Urls from "./Urls";
 
 
-function App() {
+function App(props) {
   return (
-    <>
-      <Login />
-      <Footer />
-    </>
+    <div>
+      <Layout {...props}>
+        <Urls {...props} />
+      </Layout>
+    </div>
   );
 }
 
